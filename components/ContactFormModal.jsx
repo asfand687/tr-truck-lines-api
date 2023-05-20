@@ -78,7 +78,7 @@ const ContactFormModal = () => {
                     <option className="5:00 pm">05:00 pm</option>
                   </select>
                 </div>
-                <button type="submit" className="h-[48px] flex justify-center items-center w-full text-white btn bg-primary btn-accent">
+                <button type="submit" className={`btn btn-block bg-primary hover:btn-accent ${isLoading ? "loading" : ""}`}>
                   Send Request
                 </button>
               </form>
