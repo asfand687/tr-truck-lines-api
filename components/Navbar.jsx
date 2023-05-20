@@ -27,10 +27,12 @@ const Navbar = () => {
         </Link>
         <aside className="hidden lg:flex items-center space-x-12">
           <ul className="flex items-center space-x-8">
-            <li className="flex-1 flex justify-center">
+            <li>
               <article className="flex items-center">
-                <img src="/img/whatsapp.png"/>
-                <a href="https://wa.me/19174001006">Contact Us On Whatsapp</a>
+                <a className="btn gap-2 btn-success hover:btn-primary rounded-full" href="https://wa.me/19174001006">
+                  <img src="/img/whatsapp.png"/>
+                  1 (917) 400-1006
+                </a>
               </article>
             </li>
             <li>
