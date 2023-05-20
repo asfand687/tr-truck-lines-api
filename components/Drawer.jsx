@@ -27,46 +27,54 @@ const Drawer = ({ showDrawer, setShowDrawer }) => {
           alt="Logo" 
         />
       </Link>
-      <ul className="list-none">
-      <li>
-        <Link
-          offset={-85}
-          to="about"
-          smooth={true}
-          duration={500}
-          spy={true}
-          activeClass='font-semibold text-primary'
-          className="cursor-pointer"
-        >
-          About Us
-        </Link>
-      </li>
-      <li>
-        <Link
-          offset={-165}
-          to="vision"
-          smooth={true}
-          duration={500}
-          spy={true}
-          activeClass='font-semibold text-primary'
-          className="cursor-pointer"
-        >
-          Our Vision
-        </Link>
-      </li>
-      <li>
-        <Link
-          offset={-85}
-          to="pricing"
-          smooth={true}
-          duration={500}
-          activeClass='font-semibold text-primary'
-          className="cursor-pointer"
-          spy={true}
+      <ul className="list-none flex flex-col gap-y-2">
+        <li>
+          <article className="flex items-center">
+            <a className="btn gap-2 btn-success hover:btn-primary rounded-full" href="https://wa.me/19174001006">
+              <img src="/img/whatsapp.png"/>
+              1 (917) 400-1006
+            </a>
+          </article>
+        </li>
+        <li className="text-center">
+          <Link
+            offset={-85}
+            to="about"
+            smooth={true}
+            duration={500}
+            spy={true}
+            activeClass='font-semibold text-primary'
+            className="cursor-pointer"
           >
-            Pricing
-        </Link>
-      </li>
+            About Us
+          </Link>
+        </li>
+        <li className="text-center">
+          <Link
+            offset={-165}
+            to="vision"
+            smooth={true}
+            duration={500}
+            spy={true}
+            activeClass='font-semibold text-primary'
+            className="cursor-pointer"
+          >
+            Our Vision
+          </Link>
+        </li>
+        <li className="text-center">
+          <Link
+            offset={-85}
+            to="pricing"
+            smooth={true}
+            duration={500}
+            activeClass='font-semibold text-primary'
+            className="cursor-pointer"
+            spy={true}
+            >
+              Pricing
+          </Link>
+        </li>
       </ul>
       <Link
         offset={-115}
