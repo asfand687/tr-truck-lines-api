@@ -43,6 +43,6 @@ const transporter = nodemailer.createTransport({
     // Send a success response
     return new Response(JSON.stringify({ message: 'Email sent successfully' }), { status: 200 })
   } catch (error) {
-      return new Response("Failed to fetch all prompts", { status: 500 })
+      return new Response("Failed to send email", { status: 500 })
   }
 } 
