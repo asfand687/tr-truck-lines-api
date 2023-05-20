@@ -2,26 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.bg-gradient {
+  background: linear-gradient(340.79deg, #7285D1 2.67%, rgba(70, 198, 243, 0) 136.1%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.bg-gradient-sec {
+  background: linear-gradient(340.79deg, #2AA6E0 2.67%, rgba(70, 198, 243, 0) 136.1%);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bg-service-truckdispatch {
+  background: url("/img/truck-dispatching-card-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.bg-service-billing {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(10, 10, 10, 0.73)), url("/img/billing-card-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.bg-service-paperwork {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(10, 10, 10, 0.73)), url("/img/paperwork-card-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.bg-service-ifta {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(10, 10, 10, 0.73)), url("/img/ifta-card-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.bg-service-equipment {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(10, 10, 10, 0.73)), url("/img/equipment-card-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.bg-service-trailer-lease {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(10, 10, 10, 0.73)), url("/img/trailer-lease.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.bg-our-milestones {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(10, 10, 10, 0.73)), url("/img/trucks.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-vision-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(10, 10, 10, 0.73)), url("/img/our-vision.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 80%;
 }
