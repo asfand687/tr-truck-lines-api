@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
     // Send the email using the Nodemailer transporter
     const info = await transporter.sendMail({
       from: "asfandyar687@gmail.com",
-      to: "asfandyar687@gmail.com",
+      to: "trtrucklines@gmail.com",
       subject: 'New Contact Form From TR Truck Lines',
       html: `
         <h2>
