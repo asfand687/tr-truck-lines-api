@@ -91,7 +91,7 @@ const ContactForm = () => {
         </div>
         <div>
           <button 
-            className="flex justify-center items-center cursor-pointer hover:opacity-75 transition-opacity ease-in-out duration-300 h-[52px] rounded text-xl w-full bg-primary text-light font-semibold mt-4" type="submit" 
+            className={`btn btn-block bg-primary hover:btn-accent ${isLoading ? "loading" : ""}`} type="submit" 
           >
             Send Request
           </button>
