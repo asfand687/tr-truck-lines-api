@@ -15,7 +15,7 @@ const testimonials = [
     business: "Pacific Coast Trucking",
     mcNumber: 54281,
     image: "/img/testimonial-02.png",
-    title: "Reliable, Professional, and Efficient Services",
+    title: "Dependable, Expert, and Streamlined Solutions",
     review: "I was hesitant to use a truck dispatching company at first, but I'm so glad I found TR Truck Lines. Their team is knowledgeable, friendly, and always willing to go the extra mile to make sure everything runs smoothly. They have saved me so much time and money, and I couldn't be happier with their services. They are truly a top-notch company!"
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     business: "Mountain View Logistics",
     mcNumber: 78432,
     image: "/img/testimonial-03.png",
-    title: "Reliable, Professional, and Efficient Services",
+    title: "Trustworthy, Skilled, and Seamless Operations",
     review: "As a small business owner, I was struggling to keep up with my transportation needs. But ever since I started working with TR Truck Lines, my stress levels have gone down significantly. They are always prompt, professional, and communicative. They make sure all of my deliveries are on time and in great condition. I highly recommend them to anyone in need of reliable transportation services!"
   }
 ]
