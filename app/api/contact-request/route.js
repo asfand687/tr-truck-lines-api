@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
     // Send the email using the Nodemailer transporter
     const info = await transporter.sendMail({
       from: "asfandyar687@gmail.com",
-      to: "trtrucklines@gmail.com",
+      to: "asfandyar687@gmail.com",
       subject: 'New Phone Call Request TR Truck Lines',
       html: `
         <h2>
@@ -37,6 +37,6 @@ const transporter = nodemailer.createTransport({
     // Send a success response
     return new Response(JSON.stringify({ message: 'Email sent successfully' }), { status: 200 })
   } catch (error) {
-      return new Response("Failed to fetch all prompts", { status: 500 })
+      return new Response("Failed to send email", { status: 500 })
   }
 } 
