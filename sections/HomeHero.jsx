@@ -17,7 +17,7 @@ const HomeHero = () => {
         </label>
           <div className="absolute z-10 w-20 h-20 rounded-full bg-accent animate-ping"></div>
         </div>
-        <div className="absolute w-full h-screen md:h-[calc(100vh-65px)] z-20 flex flex-col md:flex-row md:justify-center md:items-center pt-12 text-white gap-x-16">
+        <div className="absolute w-full md:h-[calc(100vh-65px)] z-20 flex flex-col md:flex-row md:justify-center md:items-center pt-12 text-white gap-x-16">
           <article className="px-4 pb-10 md:mt-0 md:pb-0">
             <div data-aos="fade-right" className="w-full flex flex-col items-center text-center lg:max-w-[870px]">
               <h2 className="text-3xl lg:text-5xl font-bold">
